@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+ul#album{
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#album li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid white;
+	background-color: white;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	-webkit-transition:all 0.4s ease-in;
+}
+
+ul#album li:hover{
+	-webkit-transform: scale(1.5);
+}
+
+
+ul#album li#foto01{
+	background: url("../_imagens/albumIndependenciaMexico/lista01.jpg") no-repeat;
+	background-position: 50% 30%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto01:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+
+ul#album li#foto02{
+	background: url("../_imagens/albumIndependenciaMexico/lista02.jpg") no-repeat;
+	background-position: 50% 30%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto02:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto03{
+	background: url("../_imagens/albumIndependenciaMexico/lista03.jpg") no-repeat;
+	background-position: 50% 30%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto03:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto04{
+	background: url("../_imagens/albumIndependenciaMexico/lista04.jpg") no-repeat;
+	background-position: 50% 30%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto04:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto05{
+	background: url("../_imagens/albumIndependenciaMexico/lista05.jpg") no-repeat;
+	background-position: 50% 30%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto05:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto06{
+	background: url("../_imagens/albumIndependenciaMexico/lista06.jpg") no-repeat;
+	background-position: 50% 30%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto06:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto07{
+	background: url("../_imagens/albumIndependenciaMexico/lista07.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto07:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto08{
+	background: url("../_imagens/albumIndependenciaMexico/lista08.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto08:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto09{
+	background: url("../_imagens/albumIndependenciaMexico/lista09.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto09:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto10{
+	background: url("../_imagens/albumIndependenciaMexico/lista10.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto10:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto11{
+	background: url("../_imagens/albumIndependenciaMexico/lista11.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto11:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto12{
+	background: url("../_imagens/albumIndependenciaMexico/lista12.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto12:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto13{
+	background: url("../_imagens/albumIndependenciaMexico/lista13.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto13:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto14{
+	background: url("../_imagens/albumIndependenciaMexico/lista14.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto14:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto15{
+	background: url("../_imagens/albumIndependenciaMexico/lista15.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto15:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto16{
+	background: url("../_imagens/albumIndependenciaMexico/lista16.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto16:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto17{
+	background: url("../_imagens/albumIndependenciaMexico/lista17.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto17:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto18{
+	background: url("../_imagens/albumIndependenciaMexico/lista18.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto18:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto19{
+	background: url("../_imagens/albumIndependenciaMexico/lista19.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto19:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto20{
+	background: url("../_imagens/albumIndependenciaMexico/lista20.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto20:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto21{
+	background: url("../_imagens/albumIndependenciaMexico/lista21.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto21:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto22{
+	background: url("../_imagens/albumIndependenciaMexico/lista22.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto22:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto23{
+	background: url("../_imagens/albumIndependenciaMexico/lista23.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto23:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto24{
+	background: url("../_imagens/albumIndependenciaMexico/lista24.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto24:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto25{
+	background: url("../_imagens/albumIndependenciaMexico/lista25.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto25:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto26{
+	background: url("../_imagens/albumIndependenciaMexico/lista26.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto26:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto27{
+	background: url("../_imagens/albumIndependenciaMexico/lista27.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto27:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto28{
+	background: url("../_imagens/albumIndependenciaMexico/lista28.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto28:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto29{
+	background: url("../_imagens/albumIndependenciaMexico/lista29.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto29:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto30{
+	background: url("../_imagens/albumIndependenciaMexico/lista30.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto30:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto31{
+	background: url("../_imagens/albumIndependenciaMexico/lista31.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto31:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto32{
+	background: url("../_imagens/albumIndependenciaMexico/lista32.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto32:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto33{
+	background: url("../_imagens/albumIndependenciaMexico/lista33.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto33:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto34{
+	background: url("../_imagens/albumIndependenciaMexico/lista34.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto34:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto35{
+	background: url("../_imagens/albumIndependenciaMexico/lista35.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto35:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto36{
+	background: url("../_imagens/albumIndependenciaMexico/lista36.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto36:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto37{
+	background: url("../_imagens/albumIndependenciaMexico/lista37.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto37:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto38{
+	background: url("../_imagens/albumIndependenciaMexico/lista38.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto38:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto39{
+	background: url("../_imagens/albumIndependenciaMexico/lista39.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto39:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto40{
+	background: url("../_imagens/albumIndependenciaMexico/lista40.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto40:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto41{
+	background: url("../_imagens/albumIndependenciaMexico/lista41.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto41:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto42{
+	background: url("../_imagens/albumIndependenciaMexico/lista42.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto42:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto43{
+	background: url("../_imagens/albumIndependenciaMexico/lista43.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto43:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto44{
+	background: url("../_imagens/albumIndependenciaMexico/lista44.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto44:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#album li#foto45{
+	background: url("../_imagens/albumIndependenciaMexico/lista45.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#album li#foto45:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}

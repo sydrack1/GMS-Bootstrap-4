@@ -1,0 +1,110 @@
+@charset "UTF-8";
+body{
+
+}
+header{
+	border-bottom: 2px rgba(164,174,166,0.3) solid;
+  background-color: rgba(135,169,101,0.3);
+  margin: -15px;
+}
+header img#logo{
+	margin-top: -15px;
+	margin-left: 1250px;
+	margin-bottom: -5px;
+	width: 250px;
+	height: 180px;
+}
+nav#menu{
+  position:fixed;
+	display: block;
+	float: left;
+	border-right: 2px rgba(164,174,166,0.3) solid;
+  border-radius: 0px 20px 20px 0px;
+	padding: 10px;
+    margin-top: -10px;
+    margin-right: 10px;
+    margin-left: -13px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 535px;
+    box-shadow: 1px 2px 15px rgba(164,174,166,0.3);
+    background-color: rgba(164,174,166,1);
+ }
+ nav#menu h1{
+ 	color: #ffffff;
+ 	font-family: Stencil Std,sans-serif;
+ 	
+ }
+ nav#menu ul{
+      list-style: none;
+      text-transform: uppercase;
+
+
+ }
+ nav#menu li{
+     display: block;
+     text-decoration: none;
+     padding: 10px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     background-color: rgba(164,174,166,1);
+     margin-left: -50px;
+     margin-right: -12px;
+      -webkit-transition: background-color 0.9s linear;
+   -moz-transition: background-color 0.9s linear;
+   -ms-transition: background-color 0.9s linear;
+   -o-transition: background-color 0.9s linear ;
+   transition: background-color 0.9s linear;
+   cursor: pointer;
+ }
+ nav#menu a{
+ 	text-decoration: none;
+ 	
+ }
+nav#menu li:hover{
+ 	background-color:rgba(76,101,92,1);
+
+ }
+  nav#menu h2,h1{
+ 	text-align: center;
+ 	color: white; 
+ }
+section#corpo{
+	display: block;
+	float: center;
+	margin-left: 360px;
+	margin-top: 20px; 
+
+}
+section#corpo p#data{
+	color: black;
+	font-size: 15pt;
+  background-color: #cecece;
+  padding: 2px;
+}
+section#corpo p.news{
+	color:black;
+	font-size: 25pt;
+  margin-left: 20px;
+}
+section#corpo p.endereco{
+  color:rgb(128,128,128);
+  font-size: 15pt;
+  margin-left: 20px;
+}
+
+footer#rodape{
+	clear: both;
+	border-top: 2px rgba(164,174,166,0.3) solid;
+  background-color: rgba(135,169,101,0.3);
+  margin: -7px;
+  margin-top: 44px;
+  padding-left: 15px;
+}
+footer#rodape p{
+	font-size: 15pt;
+}
+footer#rodape a{
+  text-decoration: none;
+  color:black;
+}

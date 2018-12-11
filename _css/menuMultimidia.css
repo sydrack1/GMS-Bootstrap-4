@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+ul#menu2{
+	width: 700px;
+	margin: 150px auto  ;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#menu2 li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid white;
+	background-color: white;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	-webkit-transition:all 0.4s ease-in;
+}
+
+ul#menu2 li:hover{
+	-webkit-transform: scale(1.5);
+}
+ul#menu2 li span{
+	
+	text-shadow:1px 1px 1px black;
+	font-size: 30pt;
+	line-height: 200px;
+	padding: 80px 50px 80px 40px;
+	background-color: white;
+
+}
+ul#menu2 li span:hover{
+    background-color: rgba(255,255,255,0.0);
+    color: white;
+}
+ul#menu2 li a {
+	text-decoration: none;
+	color:rgba(164,174,166,1);
+}
+ul#menu2 li#albuns{
+	background: url("../_imagens/menu2/fotos.png") no-repeat;
+	background-position: 50% 30%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#menu2 li#albuns:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#menu2 li#videos{
+	background: url("../_imagens/menu2/multimidia.png") no-repeat;
+	background-position: 50% 30%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#menu2 li#videos:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
+ul#menu2 li#audios{
+	background: url("../_imagens/menu2/audio.png") no-repeat;
+	background-position: 50% 30%;
+	background-size: 400px 400px;
+	background-color: white;
+}
+ul#menu2 li#audios:hover{
+	background-position: 0px 0px ;
+	background-size: 200px 200px;
+}
