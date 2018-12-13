@@ -80,5 +80,24 @@ div.album button.btn{
     background-color: white;
     padding: .0rem .0rem;
 }
-
-
+#container-voltar{
+    display: block;
+    position: absolute;
+    margin-top: 50%;
+    
+    float: left;     
+}
+#container-ir{
+    display: grid;
+    position: absolute;
+    margin-top: 50%;
+    padding: 0px;
+    margin-left: 88%;
+    float: right;
+    
+}
+.marcadores{
+    font-size: 36pt;
+    text-decoration: none;
+    color: rgb(252, 248, 248);
+}
