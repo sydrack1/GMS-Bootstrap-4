@@ -80,24 +80,35 @@ div.album button.btn{
     background-color: white;
     padding: .0rem .0rem;
 }
-#container-voltar{
-    display: block;
-    position: absolute;
-    margin-top: 50%;
-    
-    float: left;     
-}
-#container-ir{
-    display: grid;
-    position: absolute;
-    margin-top: 50%;
-    padding: 0px;
-    margin-left: 88%;
-    float: right;
-    
-}
+
 .marcadores{
-    font-size: 36pt;
-    text-decoration: none;
-    color: rgb(252, 248, 248);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    font-size: 33pt;
 }
+#voltar:hover, #voltar:focus,
+#ir:hover,
+#ir:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+#voltar{
+    left: 0;
+}
+#ir{
+    right: 0;
+}
+
