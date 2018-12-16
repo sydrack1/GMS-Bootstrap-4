@@ -111,4 +111,7 @@ div.album button.btn{
 #ir{
     right: 0;
 }
+.dropdown-menu{
+    margin-right: -75px;
+}
 
