@@ -82,6 +82,7 @@ div.album button.btn{
 }
 
 .marcadores{
+    padding: 0px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -96,19 +97,20 @@ div.album button.btn{
     text-align: center;
     opacity: 0.5;
     font-size: 33pt;
+    margin-top: 7%;
 }
-#voltar:hover, #voltar:focus,
-#ir:hover,
-#ir:focus {
+.voltar:hover, .voltar:focus,
+.ir:hover,
+.ir:focus {
   color: #fff;
   text-decoration: none;
   outline: 0;
   opacity: .9;
 }
-#voltar{
+.voltar{
     left: 0;
 }
-#ir{
+.ir{
     right: 0;
 }
 .dropdown-menu{
