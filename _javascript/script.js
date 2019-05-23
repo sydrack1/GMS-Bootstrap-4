@@ -1,15 +1,231 @@
-var ir = document.getElementById("ir");
-var voltar = document.getElementById("voltar");
-var modais = (document.querySelectorAll(".modal").length) ;
+const modal = document.querySelectorAll(".modal");
+const $modal = document.getElementsByClassName("modal");
+var voltar1 = document.getElementById("voltar1");
+var ir1 = document.getElementById("ir1");
+var modal1 = document.getElementById("modal1");
+var voltar2 = document.getElementById("voltar2");
+var ir2 = document.getElementById("ir2");
+var modal2 = document.getElementById("modal2");
+var voltar3 = document.getElementById("voltar3");
+var ir3 = document.getElementById("ir3");
+var modal3 = document.getElementById("modal3");
+var voltar4 = document.getElementById("voltar4");
+var ir4 = document.getElementById("ir4");
+var modal4 = document.getElementById("modal4");
+var voltar5 = document.getElementById("voltar5");
+var ir5 = document.getElementById("ir5");
+var modal5 = document.getElementById("modal5");
+var voltar6 = document.getElementById("voltar6");
+var ir6 = document.getElementById("ir6");
+var modal6 = document.getElementById("modal6");
+var voltar7 = document.getElementById("voltar7");
+var ir7 = document.getElementById("ir7");
+var modal7 = document.getElementById("modal7");
+var voltar8 = document.getElementById("voltar8");
+var ir8 = document.getElementById("ir8");
+var modal8 = document.getElementById("modal8");
+var voltar9 = document.getElementById("voltar9");
+var ir9 = document.getElementById("ir9");
+var modal9 = document.getElementById("modal9");
+var voltar10 = document.getElementById("voltar10");
+var ir10 = document.getElementById("ir10");
+var modal10 = document.getElementById("modal10");
+var voltar11 = document.getElementById("voltar11");
+var ir11 = document.getElementById("ir11");
+var modal11 = document.getElementById("modal11");
+var voltar12 = document.getElementById("voltar12");
+var ir12 = document.getElementById("ir12");
+var modal12 = document.getElementById("modal12");
+var voltar13 = document.getElementById("voltar13");
+var ir13 = document.getElementById("ir13");
+var modal13 = document.getElementById("modal13");
+var voltar14 = document.getElementById("voltar14");
+var ir14 = document.getElementById("ir14");
+var modal14 = document.getElementById("modal14");
+var voltar15 = document.getElementById("voltar15");
+var ir15 = document.getElementById("ir15");
+var modal15 = document.getElementById("modal15");
+var voltar16 = document.getElementById("voltar16");
+var ir16 = document.getElementById("ir16");
+var modal16 = document.getElementById("modal16");
+var voltar17 = document.getElementById("voltar17");
+var ir17 = document.getElementById("ir17");
+var modal17 = document.getElementById("modal17");
+var voltar18 = document.getElementById("voltar18");
+var ir18 = document.getElementById("ir18");
+var modal18 = document.getElementById("modal18");
+var voltar19 = document.getElementById("voltar19");
+var ir19 = document.getElementById("ir19");
+var modal19 = document.getElementById("modal19");
+var voltar20 = document.getElementById("voltar20");
+var ir20 = document.getElementById("ir20");
+var modal20 = document.getElementById("modal20");
+var voltar21 = document.getElementById("voltar21");
+var ir21 = document.getElementById("ir21");
+var modal21 = document.getElementById("modal21");
+var voltar22 = document.getElementById("voltar22");
+var ir22 = document.getElementById("ir22");
+var modal22 = document.getElementById("modal22");
+var voltar23 = document.getElementById("voltar23");
+var ir23 = document.getElementById("ir23");
+var modal2 = document.getElementById("modal23");
+var voltar24 = document.getElementById("voltar24");
+var ir24 = document.getElementById("ir24");
+var modal24 = document.getElementById("modal24");
+var voltar25 = document.getElementById("voltar25");
+var ir25 = document.getElementById("ir25");
+var modal25 = document.getElementById("modal25");
+var voltar26 = document.getElementById("voltar26");
+var ir26 = document.getElementById("ir26");
+var modal26 = document.getElementById("modal26");
+var voltar27 = document.getElementById("voltar27");
+var ir27 = document.getElementById("ir27");
+var modal27 = document.getElementById("modal27");
+var voltar28 = document.getElementById("voltar28");
+var ir28 = document.getElementById("ir28");
+var modal28 = document.getElementById("modal28");
+var voltar29 = document.getElementById("voltar29");
+var ir29 = document.getElementById("ir29");
+var modal29 = document.getElementById("modal29");
+var voltar30 = document.getElementById("voltar30");
+var ir30 = document.getElementById("ir30");
+var modal30 = document.getElementById("modal30");
+var voltar31 = document.getElementById("voltar31");
+var ir31 = document.getElementById("ir31");
+var modal31 = document.getElementById("modal31");
+var voltar32 = document.getElementById("voltar32");
+var ir32 = document.getElementById("ir32");
+var modal32 = document.getElementById("modal32");
+var voltar33 = document.getElementById("voltar33");
+var ir33 = document.getElementById("ir33");
+var modal33 = document.getElementById("modal33");
+var voltar34 = document.getElementById("voltar34");
+var ir34 = document.getElementById("ir34");
+var modal34 = document.getElementById("modal34");
+var voltar35 = document.getElementById("voltar35");
+var ir35 = document.getElementById("ir35");
+var modal35 = document.getElementById("modal35");
+var voltar36 = document.getElementById("voltar36");
+var ir36 = document.getElementById("ir36");
+var modal36 = document.getElementById("modal36");
+var voltar37 = document.getElementById("voltar37");
+var ir37 = document.getElementById("ir37");
+var modal37 = document.getElementById("modal37");
+var voltar38 = document.getElementById("voltar38");
+var ir38 = document.getElementById("ir38");
+var modal38 = document.getElementById("modal38");
+var voltar39 = document.getElementById("voltar39");
+var ir39 = document.getElementById("ir39");
+var modal39 = document.getElementById("modal39");
+var voltar40 = document.getElementById("voltar40");
+var ir40 = document.getElementById("ir40");
+var modal40 = document.getElementById("modal40");
+var ir41 = document.getElementById("ir41");
+var modal41 = document.getElementById("modal41");
+var voltar42 = document.getElementById("voltar42");
+var ir42 = document.getElementById("ir42");
+var modal42 = document.getElementById("modal42");
+var voltar43 = document.getElementById("voltar43");
+var ir43 = document.getElementById("ir43");
+var modal43 = document.getElementById("modal43");
+var voltar44 = document.getElementById("voltar44");
+var ir44 = document.getElementById("ir44");
+var modal44 = document.getElementById("modal44");
+var voltar45 = document.getElementById("volta45");
+var ir45 = document.getElementById("ir45");
+var modal45 = document.getElementById("modal45");
+var id;
 
-for (let index = 1; index <= modais; index++) {
-    console.log(index);
-    
-}
+const fechar1 = () => {
+    modal1.hidden = true;
+};
+ir1.addEventListener("click", fechar1);
+voltar1.addEventListener("click", fechar1);
+const fechar2 = () => {
+    modal2.hidden = true;
+};
+ir2.addEventListener("click", fechar2);
+voltar2.addEventListener("click", fechar2);
+const fechar3 = () => {
+    modal3.hidden = true;
+};
+ir3.addEventListener("click", fechar3);
+voltar3.addEventListener("click", fechar3);
+const fechar4 = () => {
+    modal4.hidden = true;
+};
+ir4.addEventListener("click", fechar4);
+voltar4.addEventListener("click", fechar4);
+const fechar5 = () => {
+    modal5.hidden = true;
+};
+ir5.addEventListener("click", fechar5);
+voltar5.addEventListener("click", fechar5);
+const fechar6 = () => {
+    modal6.hidden = true;
+};
+ir6.addEventListener("click", fechar6);
+voltar6.addEventListener("click", fechar6);
+const fechar7 = () => {
+    modal7.hidden = true;
+};
+ir7.addEventListener("click", fechar7);
+voltar7.addEventListener("click", fechar7);
+const fechar8 = () => {
+    modal8.hidden = true;
+};
+ir8.addEventListener("click", fechar8);
+voltar8.addEventListener("click", fechar8);
+const fechar9 = () => {
+    modal9.hidden = true;
+};
+ir9.addEventListener("click", fechar9);
+voltar9.addEventListener("click", fechar9);
+const fechar10 = () => {
+    modal10.hidden = true;
+};
+ir10.addEventListener("click", fechar10);
+voltar10.addEventListener("click", fechar10);
+const fechar11 = () => {
+    modal11.hidden = true;
+};
+ir11.addEventListener("click", fechar11);
+voltar11.addEventListener("click", fechar11);
+const fechar12 = () => {
+    modal12.hidden = true;
+};
+ir1.addEventListener("click", fechar12);
+voltar1.addEventListener("click", fechar12);
+const fechar13 = () => {
+    modal13.hidden = true;
+};
+ir1.addEventListener("click", fechar13);
+voltar1.addEventListener("click", fechar13);
+const fechar14 = () => {
+    modal14.hidden = true;
+};
+ir14.addEventListener("click", fechar14);
+voltar14.addEventListener("click", fechar14);
+const fechar15 = () => {
+    modal15.hidden = true;
+};
+ir15.addEventListener("click", fechar15);
+voltar15.addEventListener("click", fechar15);
+const fechar16 = () => {
+    modal16.hidden = true;
+};
+ir16.addEventListener("click", fechar16);
+voltar16.addEventListener("click", fechar16);
+const fechar17 = () => {
+    modal17.hidden = true;
+};
+ir17.addEventListener("click", fechar17);
+voltar17.addEventListener("click", fechar17);
+const fechar18 = () => {
+    modal18.hidden = true;
+};
+ir18.addEventListener("click", fechar18);
+voltar18.addEventListener("click", fechar18);
 
-const irFun = function(modal){
-      
-}
-const voltarFun = function(modal){
-
+for(var i = 1; i <= modal.length; i++ ){
 }

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Admin GMS Construções</title>
+  <link rel="stylesheet" href="admin.css" />
+  <link rel="shotcut icon" href="../_imagens/icone/favicon.png">
+</head>
+
+<body>
+  <header>
+    <nav id="menu" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <img src="../_imagens/icone/logo2-gms.png" id="logo" />
+        <a id="titulo" class="navbar-brand h1 nb-0" href="#">MENU PRINCIPAL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#contentId">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="contentId">
+          <ul class="navbar-nav mr-auto">
+            <li id="menu" class="nav-item"><a class="nav-link" href="../index.html">
+                <h2>Home</h2>
+              </a></li>
+            <li id="menu" class="nav-item"><a class="nav-link" href="../sobre.html">
+                <h2>Sobre</h2>
+              </a></li>
+            <li id="menu" class="nav-item"><a class="nav-link" href="../multimidia.html">
+                <h2>Multimídia</h2>
+              </a></li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li id="menu" class="nav-item dropdown   my-sm-2">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                Redes sociais
+              </a>
+              <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" target="_blank" href="https://www.facebook.com/GeraldoMariadeSouzaMe">
+                  <img src="../_imagens/icone/facebook.png" id="facelogo" /> /GMS Construções</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="mailto:souzagms2017@hotmail.com?subject=Contato com a GMS">Email de
+                  contato
+                  para serviços </a>
+                <div class="dropdown-divider"></div>
+                <div id="praesquerdasobresydrack">
+                  created by Sydrack Gregório<br>
+                  <a class="alert-link" target="_blank" href="https://www.facebook.com/sydrack.gregorio"> Facebook </a>
+                  |
+                  <a class="alert-link" target="_blank" href="https://twitter.com/sydrack13"> Twitter </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="corpo">
+    <!-- INSERE TEXTO -->
+    <h3> Insere texto na Home</h3>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="html-text" placeholder="Escreva em HTML" aria-label="Recipient's username"
+        aria-describedby="button-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Salvar</button>
+      </div>
+      <div class="input-group mb-3">
+        <input type="text" id="input-date" class="form-control" placeholder="Escreva a data"
+          aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+        </div>
+      </div>
+    </div>
+    <h3>Insere arquivos</h3>
+    <div class="input-group mb-3">
+      <input type="file" id="files" name="files[]" multiple class="form-control input-file" />
+      <output id="list"></output>
+      <button class="btn btn-outline-secondary" type="button" id="button-addon3" >Salvar</button>
+    </div>
+  </section>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+  <script>
+    
+
+  </script>
+  <script src="admin.js"></script>
+</body>
+
+</html>

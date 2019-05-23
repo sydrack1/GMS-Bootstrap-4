@@ -117,3 +117,8 @@ div.album button.btn{
     margin-right: -75px;
 }
 
+div.carousel-item div.carousel-caption h3,div.carousel-item div.carousel-caption p{
+    background-color: rgba(0,0,0,0.4);
+    margin: 0px;
+     background-clip: padding-box;
+}
