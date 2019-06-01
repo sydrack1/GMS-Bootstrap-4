@@ -57,11 +57,7 @@ a#menuMult{
 h5.align-centro{
     text-align: center;
 }
-div.tab-pane{
-    width: 100%;
-    height: 645px;
-    background-color: white;
-}
+
 .text-div{
     padding-top: 200px;
 }
@@ -69,50 +65,15 @@ div.tab-pane{
     margin-left: 20px;
 }
 div div.album img{
-   
     height: 505px;
-}
-#margin-bt15{
-    margin-bottom: 15px;
 }
 div.album button.btn{
     border: none;
     background-color: white;
-    padding: .0rem .0rem;
+    /*padding: .0rem .0rem;*/
 }
 
-.marcadores{
-    padding: 0px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 15%;
-    color: #fff;
-    text-align: center;
-    opacity: 0.5;
-    font-size: 33pt;
-    margin-top: 7%;
-}
-.voltar:hover, .voltar:focus,
-.ir:hover,
-.ir:focus {
-  color: #fff;
-  text-decoration: none;
-  outline: 0;
-  opacity: .9;
-}
-.voltar{
-    left: 0;
-}
-.ir{
-    right: 0;
-}
+
 .dropdown-menu{
     margin-right: -75px;
 }
@@ -121,4 +82,76 @@ div.carousel-item div.carousel-caption h3,div.carousel-item div.carousel-caption
     background-color: rgba(0,0,0,0.4);
     margin: 0px;
      background-clip: padding-box;
+}
+/* NOVO MULTIMIDIA */
+ul#list-ul{
+    width: 100%;
+	/*margin: 0 auto;*/
+	padding: 0px;
+	overflow: hidden;
+	list-style: none;
+}
+ul#list-ul li.lisphoto{
+}
+li{
+	list-style: none;
+}
+li.list-photo{
+    display: block;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    /* border: 5px solid white; */
+    background-color: white;
+    /* box-shadow: 1px 1px 3px rgba(0,0,0,0.4); */
+    /* -webkit-transition: all 0.4s ease-in; */
+     background-position: 50% 50%; 
+    /* background-size: 400px 400px; */
+    /* background-color: #ffffff; */
+}
+.card{
+    padding: 15px;
+}
+.img-thumbnail{
+    border: none;
+}
+@media screen and (min-device-width:0px) and (max-device-width:480px){
+    .album{
+        padding: 0px;
+    }
+    .col-sm{
+        padding: 0px;
+    }
+    .fruta{
+        height: 350px;
+    }
+    button.btn{
+        padding: 0px;
+    }
+    .card{
+        padding: 0px;
+    }
+    ul#list-ul{
+        margin: auto;
+        margin-left: -20px;
+        width: 395px;/*
+        padding: 50px;
+        overflow: hidden;*/
+        list-style: none;
+    }
+    li.list-photo{
+        /*display: block;
+        float: left;*/
+        width: 100%;
+        height: 200px;
+       /* margin: 10px;
+         border: 5px solid white; */
+        background-color: white;
+        /* box-shadow: 1px 1px 3px rgba(0,0,0,0.4); */
+        /* -webkit-transition: all 0.4s ease-in; */
+        /* background-size: 400px 400px; */
+        /* background-color: #ffffff; */
+    }
+    
 }

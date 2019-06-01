@@ -1,0 +1,1487 @@
+<!--GUIAS-->
+      <div class="card-header">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+              aria-selected="true">Álbuns</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+              aria-selected="false">Vídeos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+              aria-selected="false">Áudios</a>
+          </li>
+        </ul>
+        <!--GUIA ALBUNS-->
+        <div class="tab-content" id="myTabAlbum">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <!--GRADE ALBUNS-->
+            <div class="container-fluid alEin">
+              
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <span class="text-div">Ainda não estão disponíveis vídeos no site, em breve teremos novidades.</span>
+          </div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><span class="text-div">
+              Ainda não estão disponíveis áudios no site, em breve teremos novidades.</span></div>
+        </div>
+      </div>
+<!--LINHA 1-->
+              <div class="row" id="margin-bt15">
+                <!--COLUNA-->
+                <div class="col-sm album">
+                  <!--MODAL 1-->
+                  <!--BUTTON MODAL 1-->
+                  <div id="meu-btn">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#modal1" data-keyboard="true"><img
+                        id="foto1" src="_imagens/albumIndependenciaMexico/lista01.jpg" class="img-thumbnail rounded-left"
+                        alt=""></button>
+                  </div>
+                  <!--CONTEUDO MODAL 1-->
+                  <div class="modal fade bd-example-modal-lg" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div id="container-voltar">
+                          <a class="marcadores nav-link voltar" id="voltar1" href="" data-toggle="modal" data-target="#modal45">
+                            < </a> </div> 
+                        <div id="container-ir">
+                            <a class="marcadores nav-link ir" id="ir1" href="" data-toggle="modal" data-target="#modal2"> > </a>
+                        </div>
+                        <img id="foto1" src="_imagens/albumIndependenciaMexico/lista01.jpg" class="img-thumbnail rounded-left"
+                          alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--COLUNA-->
+                <div class="col-sm album">
+                  <!--MODAL 2-->
+                  <!--BUTTON MODAL 2-->
+                  <div id="meu-btn">
+                    <img data-toggle="modal" data-target="#modal2" data-keyboard="true"
+                        id="foto2" src="_imagens/albumIndependenciaMexico/lista02.jpg" class="img-thumbnail rounded-left fruta"
+                        alt="">
+                  </div>
+                  <!--CONTEUDO MODAL 2-->
+                  <div class="modal fade bd-example-modal-lg" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content  ">
+                        <div class="modal-header">
+                          
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        
+                        <img id="foto2" src="_imagens/albumIndependenciaMexico/lista02.jpg" class="img-thumbnail rounded-left"
+                          alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--COLUNA-->
+                <div class="col-sm album">
+                  <!--MODAL 3-->
+                  <!--BUTTON MODAL 3-->
+
+                  <div id="meu-btn">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#modal3" data-keyboard="true"><img
+                        id="foto3" src="_imagens/albumIndependenciaMexico/lista03.jpg" class="img-thumbnail rounded-left"
+                        alt=""></button>
+                  </div>
+                  <!--CONTEUDO MODAL 3-->
+                  <div class="modal fade bd-example-modal-lg" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div id="container-voltar">
+                          <a class="marcadores nav-link voltar" id="voltar3" href="" data-toggle="modal" data-target="#modal2">
+                            < </a> </div> <div id="container-ir">
+                              <a class="marcadores nav-link ir" id="ir3" href="" data-toggle="modal" data-target="#modal4"> > </a>
+                        </div>
+                        <img id="foto3" src="_imagens/albumIndependenciaMexico/lista03.jpg" class="img-thumbnail rounded-left"
+                          alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--COLUNA-->
+                <div class="col-sm album">
+                  <!--MODAL 4-->
+                  <!--BUTTON MODAL 4-->
+
+                  <div id="meu-btn">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#modal4"><img id="foto4" src="_imagens/albumIndependenciaMexico/lista04.jpg"
+                        class="img-thumbnail rounded-left" alt=""></button>
+                  </div>
+                  <!--CONTEUDO MODAL 4-->
+                  <div class="modal fade bd-example-modal-lg" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div id="container-voltar">
+                          <a class="marcadores nav-link voltar" id="voltar4" href="" data-toggle="modal" data-target="#modal3">
+                            < </a> </div> <div id="container-ir">
+                              <a class="marcadores nav-link ir" id="ir4" href="" data-toggle="modal" data-target="#modal5"> > </a>
+                        </div>
+                        <img id="foto4" src="_imagens/albumIndependenciaMexico/lista04.jpg" class="img-thumbnail rounded-left"
+                          alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--COLUNA-->
+                <div class="col-sm album"> 
+                  <!--MODAL 5-->
+                  <!--BUTTON MODAL 5-->
+
+                  <div id="meu-btn">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#modal5"><img id="foto5" src="_imagens/albumIndependenciaMexico/lista05.jpg"
+                        class="img-thumbnail rounded-left" alt=""></button>
+                  </div>
+                  <!--CONTEUDO MODAL 5-->
+                  <div class="modal fade bd-example-modal-lg" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div id="container-voltar">
+                          <a class="marcadores nav-link voltar" id="voltar5" href="" data-toggle="modal" data-target="#modal4">
+                            < </a> </div> <div id="container-ir">
+                              <a class="marcadores nav-link ir" id="ir5" href="" data-toggle="modal" data-target="#modal6"> > </a>
+                        </div>
+                        <img id="foto5" src="_imagens/albumIndependenciaMexico/lista05.jpg" class="img-thumbnail rounded-left"
+                          alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--LINHA 2-->
+              <div class="row" id="margin-bt15">
+                <!--COLUNA-->
+                <div class="col-sm album">
+                  <!--MODAL 6-->
+                  <!--BUTTON MODAL 6-->
+
+                  <div id="meu-btn">
+                      <button type="button" class="btn" data-toggle="modal" data-target="#modal6"><img id="foto4" src="_imagens/albumIndependenciaMexico/lista06.jpg"
+                          class="img-thumbnail rounded-left" alt=""></button>
+                    </div>
+                    <!--CONTEUDO MODAL 6-->
+                    <div class="modal fade bd-example-modal-lg" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button> 
+                          </div>
+                          <div id="container-voltar"> 
+                            <a class="marcadores nav-link voltar" id="voltar6" href="" data-toggle="modal" data-target="#modal5"> < </a> 
+                          </div>  
+                          <div id="container-ir">
+                                <a class="marcadores nav-link ir" id="ir6" href="" data-toggle="modal" data-target="#modal7"> > </a>
+                          </div>
+                          <img id="foto6" src="_imagens/albumIndependenciaMexico/lista06.jpg" class="img-thumbnail rounded-left"
+                            alt="">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--COLUNA-->
+                <div class="col-sm album">
+                  <!--MODAL 7-->
+                  <!--BUTTON MODAL 7-->
+
+                  <div id="meu-btn">
+                      <button type="button" class="btn" data-toggle="modal" data-target="#modal7"><img id="foto7" src="_imagens/albumIndependenciaMexico/lista07.jpg"
+                          class="img-thumbnail rounded-left" alt=""></button>
+                    </div>
+                    <!--CONTEUDO MODAL 7-->
+                    <div class="modal fade bd-example-modal-lg" id="modal7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button> 
+                          </div>
+                          <div id="container-voltar"> 
+                            <a class="marcadores nav-link voltar" id="voltar7" href="" data-toggle="modal" data-target="#modal6"> < </a> 
+                          </div>  
+                          <div id="container-ir">
+                                <a class="marcadores nav-link ir" id="ir7" href="" data-toggle="modal" data-target="#modal8"> > </a>
+                          </div>
+                          <img id="foto7" src="_imagens/albumIndependenciaMexico/lista07.jpg" class="img-thumbnail rounded-left"
+                            alt="">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--COLUNA-->
+                <div class="col-sm album">
+                  <!--MODAL 8-->
+                  <!--BUTTON MODAL 8-->
+
+                  <div id="meu-btn">
+                      <button type="button" class="btn" data-toggle="modal" data-target="#modal8"><img id="foto8" src="_imagens/albumIndependenciaMexico/lista08.jpg"
+                          class="img-thumbnail rounded-left" alt=""></button>
+                    </div>
+                    <!--CONTEUDO MODAL 8-->
+                    <div class="modal fade bd-example-modal-lg" id="modal8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button> 
+                          </div>
+                          <div id="container-voltar"> 
+                            <a class="marcadores nav-link voltar" id="voltar8" href="" data-toggle="modal" data-target="#modal7"> < </a> 
+                          </div>  
+                          <div id="container-ir">
+                                <a class="marcadores nav-link ir" id="ir8" href="" data-toggle="modal" data-target="#modal9"> > </a>
+                          </div>
+                          <img id="foto8" src="_imagens/albumIndependenciaMexico/lista08.jpg" class="img-thumbnail rounded-left"
+                            alt="">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--COLUNA-->
+                <div class="col-sm album">
+                  <!--MODAL 9-->
+                  <!--BUTTON MODAL 9-->
+
+                  <div id="meu-btn">
+                      <button type="button" class="btn" data-toggle="modal" data-target="#modal9"><img id="foto9" src="_imagens/albumIndependenciaMexico/lista09.jpg"
+                          class="img-thumbnail rounded-left" alt=""></button>
+                    </div>
+                    <!--CONTEUDO MODAL 9-->
+                    <div class="modal fade bd-example-modal-lg" id="modal9" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button> 
+                          </div>
+                          <div id="container-voltar"> 
+                            <a class="marcadores nav-link voltar" id="voltar9" href="" data-toggle="modal" data-target="#modal8"> < </a> 
+                          </div>  
+                          <div id="container-ir">
+                                <a class="marcadores nav-link ir" id="ir9" href="" data-toggle="modal" data-target="#modal10"> > </a>
+                          </div>
+                          <img id="foto9" src="_imagens/albumIndependenciaMexico/lista09.jpg" class="img-thumbnail rounded-left"
+                    alt="">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--COLUNA-->
+                <div class="col-sm album">
+                  <!--MODAL 10-->
+                  <!--BUTTON MODAL 10-->
+
+                  <div id="meu-btn">
+                      <button type="button" class="btn" data-toggle="modal" data-target="#modal10"><img id="foto10" src="_imagens/albumIndependenciaMexico/lista10.jpg"
+                          class="img-thumbnail rounded-left" alt=""></button>
+                    </div>
+                    <!--CONTEUDO MODAL 10-->
+                    <div class="modal fade bd-example-modal-lg" id="modal10" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button> 
+                          </div>
+                          <div id="container-voltar"> 
+                            <a class="marcadores nav-link voltar" id="voltar10" href="" data-toggle="modal" data-target="#modal9"> < </a> 
+                          </div>  
+                          <div id="container-ir">
+                                <a class="marcadores nav-link ir" id="ir10" href="" data-toggle="modal" data-target="#modal11"> > </a>
+                          </div>
+                          <img id="foto10" src="_imagens/albumIndependenciaMexico/lista10.jpg" class="img-thumbnail rounded-left"
+                            alt="">
+                        </div>
+                      </div>
+                    </div> 
+                </div>
+              </div>
+              <!--LINHA 3-->
+              <div class="row" id="margin-bt15">
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 11-->
+                    <!--BUTTON MODAL 11-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal11"><img id="foto11" src="_imagens/albumIndependenciaMexico/lista11.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 11-->
+                      <div class="modal fade bd-example-modal-lg" id="modal11" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar11" href="" data-toggle="modal" data-target="#modal10"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir11" href="" data-toggle="modal" data-target="#modal12"> > </a>
+                            </div>
+                            <img id="foto11" src="_imagens/albumIndependenciaMexico/lista11.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 12-->
+                    <!--BUTTON MODAL 12-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal12"><img id="foto12" src="_imagens/albumIndependenciaMexico/lista12.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 12-->
+                      <div class="modal fade bd-example-modal-lg" id="modal12" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar12" href="" data-toggle="modal" data-target="#modal11"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir12" href="" data-toggle="modal" data-target="#modal13"> > </a>
+                            </div>
+                            <img id="foto12" src="_imagens/albumIndependenciaMexico/lista12.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 13-->
+                    <!--BUTTON MODAL 13-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal13"><img id="foto13" src="_imagens/albumIndependenciaMexico/lista13.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 13-->
+                      <div class="modal fade bd-example-modal-lg" id="modal13" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar13" href="" data-toggle="modal" data-target="#modal12"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir13" href="" data-toggle="modal" data-target="#modal14"> > </a>
+                            </div>
+                            <img id="foto13" src="_imagens/albumIndependenciaMexico/lista13.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 14-->
+                    <!--BUTTON MODAL 14-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal14"><img id="foto14" src="_imagens/albumIndependenciaMexico/lista14.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 14-->
+                      <div class="modal fade bd-example-modal-lg" id="modal14" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar14" href="" data-toggle="modal" data-target="#modal13"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir14" href="" data-toggle="modal" data-target="#modal15"> > </a>
+                            </div>
+                    <img id="foto14" src="_imagens/albumIndependenciaMexico/lista14.jpg" class="img-thumbnail rounded-left"
+                    alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 15-->
+                    <!--BUTTON MODAL 15-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal15"><img id="foto15" src="_imagens/albumIndependenciaMexico/lista15.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 15-->
+                      <div class="modal fade bd-example-modal-lg" id="modal15" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar15" href="" data-toggle="modal" data-target="#modal14"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir15" href="" data-toggle="modal" data-target="#modal16"> > </a>
+                            </div>
+                            <img id="foto15" src="_imagens/albumIndependenciaMexico/lista15.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div> 
+                  </div>
+                </div>
+              <!--LINHA 4-->
+              <div class="row" id="margin-bt15">
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 16-->
+                    <!--BUTTON MODAL 16-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal16"><img id="foto16" src="_imagens/albumIndependenciaMexico/lista16.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 16-->
+                      <div class="modal fade bd-example-modal-lg" id="modal16" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar16" href="" data-toggle="modal" data-target="#modal15"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir16" href="" data-toggle="modal" data-target="#modal17"> > </a>
+                            </div>
+                            <img id="foto16" src="_imagens/albumIndependenciaMexico/lista16.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 17-->
+                    <!--BUTTON MODAL 17-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal17"><img id="foto17" src="_imagens/albumIndependenciaMexico/lista17.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 17-->
+                      <div class="modal fade bd-example-modal-lg" id="modal17" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar17" href="" data-toggle="modal" data-target="#modal16"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir17" href="" data-toggle="modal" data-target="#modal18"> > </a>
+                            </div>
+                            <img id="foto17" src="_imagens/albumIndependenciaMexico/lista17.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 18-->
+                    <!--BUTTON MODAL 18-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal18"><img id="foto18" src="_imagens/albumIndependenciaMexico/lista18.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 18-->
+                      <div class="modal fade bd-example-modal-lg" id="modal18" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar18" href="" data-toggle="modal" data-target="#modal17"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir18" href="" data-toggle="modal" data-target="#modal19"> > </a>
+                            </div>
+                            <img id="foto18" src="_imagens/albumIndependenciaMexico/lista18.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 19-->
+                    <!--BUTTON MODAL 19-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal19"><img id="foto19" src="_imagens/albumIndependenciaMexico/lista19.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 19-->
+                      <div class="modal fade bd-example-modal-lg" id="modal19" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar19" href="" data-toggle="modal" data-target="#modal18"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir19" href="" data-toggle="modal" data-target="#modal20"> > </a>
+                            </div>
+                    <img id="foto19" src="_imagens/albumIndependenciaMexico/lista19.jpg" class="img-thumbnail rounded-left"
+                    alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 20-->
+                    <!--BUTTON MODAL 20-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal20"><img id="foto20" src="_imagens/albumIndependenciaMexico/lista20.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 20-->
+                      <div class="modal fade bd-example-modal-lg" id="modal20" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar20" href="" data-toggle="modal" data-target="#modal19"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir20" href="" data-toggle="modal" data-target="#modal21"> > </a>
+                            </div>
+                            <img id="foto20" src="_imagens/albumIndependenciaMexico/lista20.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div> 
+                  </div>
+                </div>
+              <!--LINHA 5-->
+              <div class="row" id="margin-bt15">
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 21-->
+                    <!--BUTTON MODAL 21-->
+                    <div id="meu-btn">
+                      <button type="button" class="btn" data-toggle="modal" data-target="#modal21" data-keyboard="true"><img
+                          id="foto21" src="_imagens/albumIndependenciaMexico/lista21.jpg" class="img-thumbnail rounded-left"
+                          alt=""></button>
+                    </div>
+                    <!--CONTEUDO MODAL 21-->
+                    <div class="modal fade bd-example-modal-lg" id="modal21" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div id="container-voltar">
+                            <a class="marcadores nav-link voltar" id="voltar21" href="" data-toggle="modal" data-target="#modal20">
+                              < </a> </div> <div id="container-ir">
+                                <a class="marcadores nav-link ir" id="ir21" href="" data-toggle="modal" data-target="#modal22"> > </a>
+                          </div>
+                          <img id="foto21" src="_imagens/albumIndependenciaMexico/lista21.jpg" class="img-thumbnail rounded-left"
+                            alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 22-->
+                    <!--BUTTON MODAL 22-->
+                    <div id="meu-btn">
+                      <button type="button" class="btn" data-toggle="modal" data-target="#modal22" data-keyboard="true"><img
+                          id="foto22" src="_imagens/albumIndependenciaMexico/lista22.jpg" class="img-thumbnail rounded-left"
+                          alt=""></button>
+                    </div>
+                    <!--CONTEUDO MODAL 22-->
+                    <div class="modal fade bd-example-modal-lg" id="modal22" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div id="container-voltar">
+                            <a class="marcadores nav-link voltar" id="voltar22" href="" data-toggle="modal" data-target="#modal21">
+                              < </a> </div> <div id="container-ir">
+                                <a class="marcadores nav-link ir" id="ir22" href="" data-toggle="modal" data-target="#modal23"> > </a>
+                          </div>
+                          <img id="foto22" src="_imagens/albumIndependenciaMexico/lista22.jpg" class="img-thumbnail rounded-left"
+                            alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 23-->
+                    <!--BUTTON MODAL 23-->
+  
+                    <div id="meu-btn">
+                      <button type="button" class="btn" data-toggle="modal" data-target="#modal23" data-keyboard="true"><img
+                          id="foto23" src="_imagens/albumIndependenciaMexico/lista23.jpg" class="img-thumbnail rounded-left"
+                          alt=""></button>
+                    </div>
+                    <!--CONTEUDO MODAL 23-->
+                    <div class="modal fade bd-example-modal-lg" id="modal23" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div id="container-voltar">
+                            <a class="marcadores nav-link voltar" id="voltar23" href="" data-toggle="modal" data-target="#modal22">
+                              < </a> </div> <div id="container-ir">
+                                <a class="marcadores nav-link ir" id="ir23" href="" data-toggle="modal" data-target="#modal24"> > </a>
+                          </div>
+                          <img id="foto23" src="_imagens/albumIndependenciaMexico/lista23.jpg" class="img-thumbnail rounded-left"
+                            alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 24-->
+                    <!--BUTTON MODAL 24-->
+  
+                    <div id="meu-btn">
+                      <button type="button" class="btn" data-toggle="modal" data-target="#modal24"><img id="foto24" src="_imagens/albumIndependenciaMexico/lista24.jpg"
+                          class="img-thumbnail rounded-left" alt=""></button>
+                    </div>
+                    <!--CONTEUDO MODAL 24-->
+                    <div class="modal fade bd-example-modal-lg" id="modal24" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div id="container-voltar">
+                            <a class="marcadores nav-link voltar" id="voltar24" href="" data-toggle="modal" data-target="#modal23">
+                              < </a> </div> <div id="container-ir">
+                                <a class="marcadores nav-link ir" id="ir24" href="" data-toggle="modal" data-target="#modal25"> > </a>
+                          </div>
+                          <img id="foto24" src="_imagens/albumIndependenciaMexico/lista24.jpg" class="img-thumbnail rounded-left"
+                            alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album"> 
+                    <!--MODAL 25-->
+                    <!--BUTTON MODAL 25-->
+  
+                    <div id="meu-btn">
+                      <button type="button" class="btn" data-toggle="modal" data-target="#modal25"><img id="foto25" src="_imagens/albumIndependenciaMexico/lista25.jpg"
+                          class="img-thumbnail rounded-left" alt=""></button>
+                    </div>
+                    <!--CONTEUDO MODAL 25-->
+                    <div class="modal fade bd-example-modal-lg" id="modal25" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div id="container-voltar">
+                            <a class="marcadores nav-link voltar" id="voltar25" href="" data-toggle="modal" data-target="#modal24">
+                              < </a> </div> <div id="container-ir">
+                                <a class="marcadores nav-link ir" id="ir25" href="" data-toggle="modal" data-target="#modal26"> > </a>
+                          </div>
+                          <img id="foto25" src="_imagens/albumIndependenciaMexico/lista25.jpg" class="img-thumbnail rounded-left"
+                            alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--LINHA 6-->
+                <div class="row" id="margin-bt15">
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 26-->
+                    <!--BUTTON MODAL 26-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal26"><img id="foto4" src="_imagens/albumIndependenciaMexico/lista26.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 26-->
+                      <div class="modal fade bd-example-modal-lg" id="modal26" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar voltar"> 
+                              <a class="marcadores nav-link" id="voltar26" href="" data-toggle="modal" data-target="#modal25"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir26" href="" data-toggle="modal" data-target="#modal27"> > </a>
+                            </div>
+                            <img id="foto26" src="_imagens/albumIndependenciaMexico/lista26.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 27-->
+                    <!--BUTTON MODAL 27-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal27"><img id="foto27" src="_imagens/albumIndependenciaMexico/lista27.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 27-->
+                      <div class="modal fade bd-example-modal-lg" id="modal27" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar27" href="" data-toggle="modal" data-target="#modal26"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir27" href="" data-toggle="modal" data-target="#modal28"> > </a>
+                            </div>
+                            <img id="foto27" src="_imagens/albumIndependenciaMexico/lista27.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 28-->
+                    <!--BUTTON MODAL 28-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal28"><img id="foto28" src="_imagens/albumIndependenciaMexico/lista28.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 28-->
+                      <div class="modal fade bd-example-modal-lg" id="modal28" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar28" href="" data-toggle="modal" data-target="#modal27"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir28" href="" data-toggle="modal" data-target="#modal29"> > </a>
+                            </div>
+                            <img id="foto28" src="_imagens/albumIndependenciaMexico/lista28.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 29-->
+                    <!--BUTTON MODAL 29-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal29"><img id="foto29" src="_imagens/albumIndependenciaMexico/lista29.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 29-->
+                      <div class="modal fade bd-example-modal-lg" id="modal29" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar29" href="" data-toggle="modal" data-target="#modal28"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir29" href="" data-toggle="modal" data-target="#modal30"> > </a>
+                            </div>
+                            <img id="foto29" src="_imagens/albumIndependenciaMexico/lista29.jpg" class="img-thumbnail rounded-left"
+                      alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 30-->
+                    <!--BUTTON MODAL 30-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal30"><img id="foto30" src="_imagens/albumIndependenciaMexico/lista30.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 30-->
+                      <div class="modal fade bd-example-modal-lg" id="modal30" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar30" href="" data-toggle="modal" data-target="#modal29"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir30" href="" data-toggle="modal" data-target="#modal31"> > </a>
+                            </div>
+                            <img id="foto30" src="_imagens/albumIndependenciaMexico/lista30.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div> 
+                  </div>
+                </div>
+                <!--LINHA 3-->
+                <div class="row" id="margin-bt15">
+                    <!--COLUNA-->
+                    <div class="col-sm album">
+                      <!--MODAL 31-->
+                      <!--BUTTON MODAL 31-->
+    
+                      <div id="meu-btn">
+                          <button type="button" class="btn" data-toggle="modal" data-target="#modal31"><img id="foto31" src="_imagens/albumIndependenciaMexico/lista31.jpg"
+                              class="img-thumbnail rounded-left" alt=""></button>
+                        </div>
+                        <!--CONTEUDO MODAL 31-->
+                        <div class="modal fade bd-example-modal-lg" id="modal31" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button> 
+                              </div>
+                              <div id="container-voltar"> 
+                                <a class="marcadores nav-link voltar" id="voltar31" href="" data-toggle="modal" data-target="#modal30"> < </a> 
+                              </div>  
+                              <div id="container-ir">
+                                    <a class="marcadores nav-link ir" id="ir31" href="" data-toggle="modal" data-target="#modal32"> > </a>
+                              </div>
+                              <img id="foto31" src="_imagens/albumIndependenciaMexico/lista31.jpg" class="img-thumbnail rounded-left"
+                                alt="">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!--COLUNA-->
+                    <div class="col-sm album">
+                      <!--MODAL 32-->
+                      <!--BUTTON MODAL 32-->
+    
+                      <div id="meu-btn">
+                          <button type="button" class="btn" data-toggle="modal" data-target="#modal32"><img id="foto32" src="_imagens/albumIndependenciaMexico/lista32.jpg"
+                              class="img-thumbnail rounded-left" alt=""></button>
+                        </div>
+                        <!--CONTEUDO MODAL 32-->
+                        <div class="modal fade bd-example-modal-lg" id="modal32" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button> 
+                              </div>
+                              <div id="container-voltar"> 
+                                <a class="marcadores nav-link voltar" id="voltar32" href="" data-toggle="modal" data-target="#modal31"> < </a> 
+                              </div>  
+                              <div id="container-ir">
+                                    <a class="marcadores nav-link ir" id="ir32" href="" data-toggle="modal" data-target="#modal33"> > </a>
+                              </div>
+                              <img id="foto32" src="_imagens/albumIndependenciaMexico/lista32.jpg" class="img-thumbnail rounded-left"
+                                alt="">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!--COLUNA-->
+                    <div class="col-sm album">
+                      <!--MODAL 33-->
+                      <!--BUTTON MODAL 33-->
+    
+                      <div id="meu-btn">
+                          <button type="button" class="btn" data-toggle="modal" data-target="#modal33"><img id="foto33" src="_imagens/albumIndependenciaMexico/lista33.jpg"
+                              class="img-thumbnail rounded-left" alt=""></button>
+                        </div>
+                        <!--CONTEUDO MODAL 33-->
+                        <div class="modal fade bd-example-modal-lg" id="modal33" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button> 
+                              </div>
+                              <div id="container-voltar"> 
+                                <a class="marcadores nav-link voltar" id="voltar33" href="" data-toggle="modal" data-target="#modal32"> < </a> 
+                              </div>  
+                              <div id="container-ir">
+                                    <a class="marcadores nav-link ir" id="ir33" href="" data-toggle="modal" data-target="#modal34"> > </a>
+                              </div>
+                              <img id="foto33" src="_imagens/albumIndependenciaMexico/lista33.jpg" class="img-thumbnail rounded-left"
+                                alt="">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!--COLUNA-->
+                    <div class="col-sm album">
+                      <!--MODAL 34-->
+                      <!--BUTTON MODAL 34-->
+    
+                      <div id="meu-btn">
+                          <button type="button" class="btn" data-toggle="modal" data-target="#modal34"><img id="foto34" src="_imagens/albumIndependenciaMexico/lista34.jpg"
+                              class="img-thumbnail rounded-left" alt=""></button>
+                        </div>
+                        <!--CONTEUDO MODAL 9-->
+                        <div class="modal fade bd-example-modal-lg" id="modal34" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button> 
+                              </div>
+                              <div id="container-voltar"> 
+                                <a class="marcadores nav-link voltar" id="voltar34" href="" data-toggle="modal" data-target="#modal33"> < </a> 
+                              </div>  
+                              <div id="container-ir">
+                                    <a class="marcadores nav-link ir" id="ir34" href="" data-toggle="modal" data-target="#modal35"> > </a>
+                              </div>
+                      <img id="foto34" src="_imagens/albumIndependenciaMexico/lista34.jpg" class="img-thumbnail rounded-left"
+                      alt="">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!--COLUNA-->
+                    <div class="col-sm album">
+                      <!--MODAL 35-->
+                      <!--BUTTON MODAL 35-->
+    
+                      <div id="meu-btn">
+                          <button type="button" class="btn" data-toggle="modal" data-target="#modal35"><img id="foto35" src="_imagens/albumIndependenciaMexico/lista35.jpg"
+                              class="img-thumbnail rounded-left" alt=""></button>
+                        </div>
+                        <!--CONTEUDO MODAL 35-->
+                        <div class="modal fade bd-example-modal-lg" id="modal35" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button> 
+                              </div>
+                              <div id="container-voltar"> 
+                                <a class="marcadores nav-link voltar" id="voltar35" href="" data-toggle="modal" data-target="#modal34"> < </a> 
+                              </div>  
+                              <div id="container-ir">
+                                    <a class="marcadores nav-link ir" id="ir35" href="" data-toggle="modal" data-target="#modal36"> > </a>
+                              </div>
+                              <img id="foto35" src="_imagens/albumIndependenciaMexico/lista35.jpg" class="img-thumbnail rounded-left"
+                                alt="">
+                            </div>
+                          </div>
+                        </div> 
+                    </div>
+                  </div>
+                <!--LINHA 8-->
+                <div class="row" id="margin-bt15">
+                    <!--COLUNA-->
+                    <div class="col-sm album">
+                      <!--MODAL 36-->
+                      <!--BUTTON MODAL 36-->
+    
+                      <div id="meu-btn">
+                          <button type="button" class="btn" data-toggle="modal" data-target="#modal36"><img id="foto36" src="_imagens/albumIndependenciaMexico/lista36.jpg"
+                              class="img-thumbnail rounded-left" alt=""></button>
+                        </div>
+                        <!--CONTEUDO MODAL 36-->
+                        <div class="modal fade bd-example-modal-lg" id="modal36" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button> 
+                              </div>
+                              <div id="container-voltar"> 
+                                <a class="marcadores nav-link voltar" id="voltar36" href="" data-toggle="modal" data-target="#modal35"> < </a> 
+                              </div>  
+                              <div id="container-ir">
+                                    <a class="marcadores nav-link ir" id="ir36" href="" data-toggle="modal" data-target="#modal37"> > </a>
+                              </div>
+                              <img id="foto36" src="_imagens/albumIndependenciaMexico/lista36.jpg" class="img-thumbnail rounded-left"
+                                alt="">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!--COLUNA-->
+                    <div class="col-sm album">
+                      <!--MODAL 37-->
+                      <!--BUTTON MODAL 37-->
+    
+                      <div id="meu-btn">
+                          <button type="button" class="btn" data-toggle="modal" data-target="#modal37"><img id="foto37" src="_imagens/albumIndependenciaMexico/lista37.jpg"
+                              class="img-thumbnail rounded-left" alt=""></button>
+                        </div>
+                        <!--CONTEUDO MODAL 37-->
+                        <div class="modal fade bd-example-modal-lg" id="modal37" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button> 
+                              </div>
+                              <div id="container-voltar"> 
+                                <a class="marcadores nav-link voltar" id="voltar37" href="" data-toggle="modal" data-target="#modal36"> < </a> 
+                              </div>  
+                              <div id="container-ir">
+                                    <a class="marcadores nav-link ir" id="ir37" href="" data-toggle="modal" data-target="#modal38"> > </a>
+                              </div>
+                              <img id="foto37" src="_imagens/albumIndependenciaMexico/lista37.jpg" class="img-thumbnail rounded-left"
+                                alt="">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!--COLUNA-->
+                    <div class="col-sm album">
+                      <!--MODAL 38-->
+                      <!--BUTTON MODAL 38-->
+    
+                      <div id="meu-btn">
+                          <button type="button" class="btn" data-toggle="modal" data-target="#modal38"><img id="foto38" src="_imagens/albumIndependenciaMexico/lista38.jpg"
+                              class="img-thumbnail rounded-left" alt=""></button>
+                        </div>
+                        <!--CONTEUDO MODAL 38-->
+                        <div class="modal fade bd-example-modal-lg" id="modal38" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button> 
+                              </div>
+                              <div id="container-voltar"> 
+                                <a class="marcadores nav-link voltar" id="voltar38" href="" data-toggle="modal" data-target="#modal37"> < </a> 
+                              </div>  
+                              <div id="container-ir">
+                                    <a class="marcadores nav-link ir" id="ir38" href="" data-toggle="modal" data-target="#modal39"> > </a>
+                              </div>
+                              <img id="foto38" src="_imagens/albumIndependenciaMexico/lista38.jpg" class="img-thumbnail rounded-left"
+                                alt="">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!--COLUNA-->
+                    <div class="col-sm album">
+                      <!--MODAL 39-->
+                      <!--BUTTON MODAL 39-->
+    
+                      <div id="meu-btn">
+                          <button type="button" class="btn" data-toggle="modal" data-target="#modal39"><img id="foto39" src="_imagens/albumIndependenciaMexico/lista39.jpg"
+                              class="img-thumbnail rounded-left" alt=""></button>
+                        </div>
+                        <!--CONTEUDO MODAL 39-->
+                        <div class="modal fade bd-example-modal-lg" id="modal39" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button> 
+                              </div>
+                              <div id="container-voltar"> 
+                                <a class="marcadores nav-link voltar" id="voltar39" href="" data-toggle="modal" data-target="#modal38"> < </a> 
+                              </div>  
+                              <div id="container-ir">
+                                    <a class="marcadores nav-link ir" id="ir39" href="" data-toggle="modal" data-target="#modal40"> > </a>
+                              </div>
+                      <img id="foto39" src="_imagens/albumIndependenciaMexico/lista39.jpg" class="img-thumbnail rounded-left"
+                      alt="">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!--COLUNA-->
+                    <div class="col-sm album">
+                      <!--MODAL 40-->
+                      <!--BUTTON MODAL 40-->
+    
+                      <div id="meu-btn">
+                          <button type="button" class="btn" data-toggle="modal" data-target="#modal40"><img id="foto40" src="_imagens/albumIndependenciaMexico/lista40.jpg"
+                              class="img-thumbnail rounded-left" alt=""></button>
+                        </div>
+                        <!--CONTEUDO MODAL 40-->
+                        <div class="modal fade bd-example-modal-lg" id="modal40" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button> 
+                              </div>
+                              <div id="container-voltar"> 
+                                <a class="marcadores nav-link voltar" id="voltar40" href="" data-toggle="modal" data-target="#modal39"> < </a> 
+                              </div>  
+                              <div id="container-ir">
+                                    <a class="marcadores nav-link ir" id="ir40" href="" data-toggle="modal" data-target="#modal41"> > </a>
+                              </div>
+                              <img id="foto40" src="_imagens/albumIndependenciaMexico/lista40.jpg" class="img-thumbnail rounded-left"
+                                alt="">
+                            </div>
+                          </div>
+                        </div> 
+                    </div>
+                  </div>
+              <!--LINHA 9-->
+              <div class="row" id="margin-bt15">
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 41-->
+                    <!--BUTTON MODAL 41-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal41"><img id="foto41" src="_imagens/albumIndependenciaMexico/lista41.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 41-->
+                      <div class="modal fade bd-example-modal-lg" id="modal41" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar41" href="" data-toggle="modal" data-target="#modal40"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir41" href="" data-toggle="modal" data-target="#modal42"> > </a>
+                            </div>
+                            <img id="foto41" src="_imagens/albumIndependenciaMexico/lista41.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 42-->
+                    <!--BUTTON MODAL 42-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal42"><img id="foto42" src="_imagens/albumIndependenciaMexico/lista42.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 42-->
+                      <div class="modal fade bd-example-modal-lg" id="modal42" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar42" href="" data-toggle="modal" data-target="#modal41"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir42" href="" data-toggle="modal" data-target="#modal43"> > </a>
+                            </div>
+                            <img id="foto42" src="_imagens/albumIndependenciaMexico/lista42.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 43-->
+                    <!--BUTTON MODAL 43-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal43"><img id="foto43" src="_imagens/albumIndependenciaMexico/lista43.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 43-->
+                      <div class="modal fade bd-example-modal-lg" id="modal43" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar43" href="" data-toggle="modal" data-target="#modal42"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir43" href="" data-toggle="modal" data-target="#modal44"> > </a>
+                            </div>
+                            <img id="foto43" src="_imagens/albumIndependenciaMexico/lista43.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 44-->
+                    <!--BUTTON MODAL 44-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal44"><img id="foto44" src="_imagens/albumIndependenciaMexico/lista44.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 44-->
+                      <div class="modal fade bd-example-modal-lg" id="modal44" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar44" href="" data-toggle="modal" data-target="#modal43"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir44" href="" data-toggle="modal" data-target="#modal45"> > </a>
+                            </div>
+                    <img id="foto44" src="_imagens/albumIndependenciaMexico/lista44.jpg" class="img-thumbnail rounded-left"
+                    alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--COLUNA-->
+                  <div class="col-sm album">
+                    <!--MODAL 45-->
+                    <!--BUTTON MODAL 45-->
+  
+                    <div id="meu-btn">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal45"><img id="foto45" src="_imagens/albumIndependenciaMexico/lista45.jpg"
+                            class="img-thumbnail rounded-left" alt=""></button>
+                      </div>
+                      <!--CONTEUDO MODAL 45-->
+                      <div class="modal fade bd-example-modal-lg" id="modal45" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Obra: Sobrado</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                            </div>
+                            <div id="container-voltar"> 
+                              <a class="marcadores nav-link voltar" id="voltar45" href="" data-toggle="modal" data-target="#modal44"> < </a> 
+                            </div>  
+                            <div id="container-ir">
+                                  <a class="marcadores nav-link ir" id="ir45" href="" data-toggle="modal" data-target="#modal1"> > </a>
+                            </div>
+                            <img id="foto45" src="_imagens/albumIndependenciaMexico/lista45.jpg" class="img-thumbnail rounded-left"
+                              alt="">
+                          </div>
+                        </div>
+                      </div> 
+                  </div>
+                </div>
+            </div>
